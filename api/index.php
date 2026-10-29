@@ -13,7 +13,7 @@ $modules = [
         'category' => 'management',
         'desc' => "Analyse des besoins, élaboration du cahier des charges, modélisation UML, wireframing et charte graphique.",
         'techs' => ['UML', 'Figma', 'Agile', 'Cahier des charges'],
-        'defaultImgs' => ['https://placehold.co/600x400/70264d/fff1f6?text=M201+Wireframe+Spec']
+        'defaultImgs' => ['https://placehold.co/600x400/4c1d95/f3e8ff?text=M201+Wireframe+Spec']
     ],
     [
         'id' => 'M202',
@@ -23,9 +23,9 @@ $modules = [
         'desc' => "Gestion de projet selon la méthodologie Scrum, planification des Sprints, backlog utilisateur et daily standups.",
         'techs' => ['Scrum', 'Trello', 'Jira', 'Kanban'],
         'defaultImgs' => [
-            'https://placehold.co/600x400/70264d/fff1f6?text=M202+Scrum+Board',
-            'https://placehold.co/600x400/a84d75/fff1f6?text=Sprint+Planning',
-            'https://placehold.co/600x400/5a2140/fff1f6?text=Backlog+User'
+            'https://placehold.co/600x400/4c1d95/f3e8ff?text=M202+Scrum+Board',
+            'https://placehold.co/600x400/6d28d9/f3e8ff?text=Sprint+Planning',
+            'https://placehold.co/600x400/5b21b6/f3e8ff?text=Backlog+User'
         ]
     ],
     [
@@ -35,7 +35,7 @@ $modules = [
         'category' => 'frontend',
         'desc' => "Création d'interfaces web modernes, responsive design avec HTML5, CSS3, JavaScript ES6+ et frameworks CSS.",
         'techs' => ['HTML5', 'CSS3', 'JavaScript', 'Bootstrap', 'Tailwind'],
-        'defaultImgs' => ['https://placehold.co/600x400/70264d/fff1f6?text=M203+Integration+CSS']
+        'defaultImgs' => ['https://placehold.co/600x400/4c1d95/f3e8ff?text=M203+Integration+CSS']
     ],
     [
         'id' => 'M204',
@@ -44,7 +44,7 @@ $modules = [
         'category' => 'backend',
         'desc' => "Conception d'applications web serveur sécurisées avec PHP, Laravel, Node.js, Express, POO, architecture MVC et MySQL.",
         'techs' => ['PHP', 'Laravel', 'Node.js', 'MySQL', 'PDO'],
-        'defaultImgs' => ['https://placehold.co/600x400/70264d/fff1f6?text=M204+Laravel+Backend']
+        'defaultImgs' => ['https://placehold.co/600x400/4c1d95/f3e8ff?text=M204+Laravel+Backend']
     ],
     [
         'id' => 'M205',
@@ -53,7 +53,7 @@ $modules = [
         'category' => 'frontend',
         'desc' => "Création de Single Page Applications (SPA) dynamiques avec React.js / Vue.js, gestion d'état (Redux/Context API) et API REST.",
         'techs' => ['React.js', 'Redux', 'REST API', 'Tailwind'],
-        'defaultImgs' => ['https://placehold.co/600x400/70264d/fff1f6?text=M205+React+App']
+        'defaultImgs' => ['https://placehold.co/600x400/4c1d95/f3e8ff?text=M205+React+App']
     ],
     [
         'id' => 'M206',
@@ -62,7 +62,7 @@ $modules = [
         'category' => 'mobile',
         'desc' => "Développement mobile multiplateforme avec React Native / Flutter, intégration des composants natifs et consommation d'APIs.",
         'techs' => ['React Native', 'Flutter', 'Mobile UI', 'Expo'],
-        'defaultImgs' => ['https://placehold.co/600x400/70264d/fff1f6?text=M206+Mobile+Screen']
+        'defaultImgs' => ['https://placehold.co/600x400/4c1d95/f3e8ff?text=M206+Mobile+Screen']
     ],
     [
         'id' => 'M207',
@@ -71,7 +71,7 @@ $modules = [
         'category' => 'management',
         'desc' => "Mise en œuvre des bonnes pratiques de cybersécurité, prévention OWASP (XSS, SQLi, CSRF), chiffrement et authentification JWT.",
         'techs' => ['OWASP', 'JWT', 'HTTPS', 'Encryption'],
-        'defaultImgs' => ['https://placehold.co/600x400/70264d/fff1f6?text=M207+Security+Audit']
+        'defaultImgs' => ['https://placehold.co/600x400/4c1d95/f3e8ff?text=M207+Security+Audit']
     ],
     [
         'id' => 'M208',
@@ -80,7 +80,7 @@ $modules = [
         'category' => 'mobile',
         'desc' => "Conteneurisation d'applications avec Docker, hébergement cloud, intégration/déploiement continu (CI/CD) et administration serveur.",
         'techs' => ['Docker', 'CI/CD', 'Git', 'Vercel/AWS'],
-        'defaultImgs' => ['https://placehold.co/600x400/70264d/fff1f6?text=M208+Docker+DevOps']
+        'defaultImgs' => ['https://placehold.co/600x400/4c1d95/f3e8ff?text=M208+Docker+DevOps']
     ],
     [
         'id' => 'M209',
@@ -89,7 +89,7 @@ $modules = [
         'category' => 'backend',
         'desc' => "Projet de synthèse complet intégrant l'ensemble des compétences acquises durant la formation en Développement Digital.",
         'techs' => ['Full-Stack', 'Laravel/React', 'PFE', 'UML'],
-        'defaultImgs' => ['https://placehold.co/600x400/70264d/fff1f6?text=M209+PFE+Dashboard']
+        'defaultImgs' => ['https://placehold.co/600x400/4c1d95/f3e8ff?text=M209+PFE+Dashboard']
     ]
 ];
 ?>
@@ -100,282 +100,267 @@ $modules = [
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OFPPT ISTA Portfolio | <?php echo htmlspecialchars($studentName); ?></title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
     <style>
         :root {
-            --bg-main: #f8fafc;
-            --hero-bg: linear-gradient(135deg, #fff1f6 0%, #f8fafc 100%);
-            --luxury-brown: #9d2253;
-            --luxury-brown-hover: #7b1840;
-            --accent-green: #0d9488;
-            --text-light: #0f172a;
+            --bg-body: #f8fafc;
+            --bg-card: #ffffff;
+            --text-main: #0f172a;
             --text-muted: #64748b;
-            --card-bg: #ffffff;
-            --border-color: #e2e8f0;
-            --shadow: 0 10px 25px -5px rgba(157, 34, 83, 0.08), 0 8px 10px -6px rgba(157, 34, 83, 0.08);
-            --font-code: 'Fira Code', 'Consolas', monospace;
-            --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            --primary: #6366f1; /* Indigo فخم جداً */
+            --primary-hover: #4f46e5;
+            --accent: #ec4899; /* وردي عصري */
+            --border: #e2e8f0;
+            --shadow: 0 10px 30px -5px rgba(99, 102, 241, 0.08);
+            --font-sans: 'Plus Jakarta Sans', sans-serif;
+            --font-mono: 'JetBrains Mono', monospace;
         }
 
-        body.purple-mode {
-            --bg-main: #0f070f;
-            --hero-bg: radial-gradient(circle at center, #260d22 0%, #0f070f 75%);
-            --luxury-brown: #f472b6;
-            --luxury-brown-hover: #ec4899;
-            --accent-green: #2dd4bf;
-            --text-light: #f8fafc;
+        body.dark-mode {
+            --bg-body: #0b0f19;
+            --bg-card: #131b2e;
+            --text-main: #f8fafc;
             --text-muted: #94a3b8;
-            --card-bg: #1a0f19;
-            --border-color: rgba(244, 114, 182, 0.2);
-            --shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+            --primary: #818cf8;
+            --primary-hover: #6366f1;
+            --accent: #f472b6;
+            --border: rgba(255, 255, 255, 0.08);
+            --shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
         }
 
-        *, *::before, *::after {
+        * {
             box-sizing: border-box;
             scroll-behavior: smooth;
         }
 
         body {
             font-family: var(--font-sans);
-            background-color: var(--bg-main);
-            color: var(--text-light);
+            background-color: var(--bg-body);
+            color: var(--text-main);
             margin: 0;
-            overflow-x: hidden;
-            min-height: 100vh;
-            transition: background-color 0.4s ease, color 0.4s ease;
+            padding: 0;
+            transition: background-color 0.3s ease, color 0.3s ease;
         }
 
         header {
-            background: var(--card-bg);
-            backdrop-filter: blur(12px);
+            background: var(--bg-card);
+            border-bottom: 1px solid var(--border);
             padding: 0 5%;
+            height: 80px;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            border-bottom: 1px solid var(--border-color);
             position: sticky;
             top: 0;
             z-index: 1000;
-            height: 75px;
-            transition: background 0.4s ease, border-color 0.4s ease;
+            backdrop-filter: blur(10px);
         }
 
         .logo {
-            font-family: var(--font-code);
-            font-weight: 800;
-            color: var(--luxury-brown);
-            font-size: 1.2rem;
+            font-family: var(--font-mono);
+            font-weight: 700;
+            color: var(--primary);
+            font-size: 1.25rem;
+            text-decoration: none;
             display: flex;
             align-items: center;
             gap: 10px;
-            text-decoration: none;
         }
 
         .logo span.badge {
             font-size: 0.65rem;
-            background: rgba(157, 34, 83, 0.1);
-            border: 1px solid var(--luxury-brown);
-            color: var(--luxury-brown);
-            padding: 3px 10px;
+            background: rgba(99, 102, 241, 0.1);
+            color: var(--primary);
+            padding: 4px 10px;
             border-radius: 20px;
+            border: 1px solid rgba(99, 102, 241, 0.2);
         }
 
         nav {
             display: flex;
             align-items: center;
-            gap: 12px;
+            gap: 15px;
         }
 
         nav a, .dropdown-btn {
             text-decoration: none;
-            color: var(--text-light);
-            padding: 8px 14px;
-            font-weight: 500;
-            font-size: 0.88rem;
-            cursor: pointer;
+            color: var(--text-main);
+            padding: 8px 16px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            background: transparent;
             border: none;
-            background: none;
-            border-radius: 6px;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: 0.2s;
             display: flex;
             align-items: center;
-            gap: 6px;
-            transition: 0.3s;
+            gap: 8px;
         }
 
         nav a:hover, .dropdown-btn:hover {
-            color: var(--luxury-brown);
-            background: rgba(157, 34, 83, 0.08);
+            color: var(--primary);
+            background: rgba(99, 102, 241, 0.08);
         }
 
-        .theme-toggle-btn {
-            background: linear-gradient(135deg, var(--luxury-brown), var(--luxury-brown-hover));
+        .theme-btn {
+            background: linear-gradient(135deg, var(--primary), var(--accent));
             color: white;
             border: none;
-            padding: 8px 16px;
+            padding: 8px 18px;
             border-radius: 20px;
             cursor: pointer;
-            font-size: 0.75rem;
             font-weight: 700;
+            font-size: 0.75rem;
             display: flex;
             align-items: center;
             gap: 6px;
-            box-shadow: 0 4px 12px rgba(157,34,83,0.2);
-            transition: 0.3s;
+            box-shadow: 0 4px 12px rgba(99, 102, 241, 0.25);
+            transition: 0.2s;
         }
 
-        .theme-toggle-btn:hover {
+        .theme-btn:hover {
             transform: translateY(-2px);
-            filter: brightness(1.1);
         }
 
         .dropdown {
             position: relative;
         }
 
-        .dropdown-content {
+        .dropdown-menu {
             display: none;
             position: absolute;
-            top: 50px;
+            top: 55px;
             right: 0;
-            background: var(--card-bg);
-            backdrop-filter: blur(15px);
-            min-width: 300px;
-            border: 1px solid var(--border-color);
+            background: var(--bg-card);
+            min-width: 290px;
+            border: 1px solid var(--border);
             border-radius: 12px;
             box-shadow: var(--shadow);
-            max-height: 420px;
-            overflow-y: auto;
             z-index: 1001;
-            padding: 6px 0;
+            padding: 8px 0;
         }
 
-        .dropdown-content.show {
+        .dropdown-menu.show {
             display: block;
         }
 
-        .dropdown-content a {
+        .dropdown-menu a {
             padding: 10px 18px;
-            border-bottom: 1px solid var(--border-color);
-            font-family: var(--font-code);
-            font-size: 0.8rem;
-            display: flex;
+            font-family: var(--font-mono);
+            font-size: 0.78rem;
+            border-bottom: 1px solid var(--border);
             justify-content: space-between;
-            align-items: center;
-            color: var(--text-light);
-            text-decoration: none;
         }
 
-        .dropdown-content a:hover {
-            background: rgba(157,34,83,0.08);
-            color: var(--luxury-brown);
+        .dropdown-menu a:hover {
+            background: rgba(99, 102, 241, 0.08);
+            color: var(--primary);
         }
 
         .hero {
-            min-height: 55vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            background: var(--hero-bg);
-            padding: 60px 20px;
+            padding: 80px 20px 60px;
             text-align: center;
-            border-bottom: 1px solid var(--border-color);
+            background: radial-gradient(circle at center, rgba(99, 102, 241, 0.06) 0%, transparent 70%);
+            border-bottom: 1px solid var(--border);
         }
 
-        .hero-badge {
-            background: rgba(157,34,83,0.08);
-            border: 1px solid var(--luxury-brown);
-            color: var(--luxury-brown);
-            padding: 6px 16px;
-            border-radius: 20px;
-            font-family: var(--font-code);
-            font-size: 0.8rem;
-            margin-bottom: 20px;
+        .hero-tag {
             display: inline-flex;
             align-items: center;
             gap: 8px;
+            background: rgba(99, 102, 241, 0.1);
+            color: var(--primary);
+            padding: 6px 18px;
+            border-radius: 30px;
+            font-family: var(--font-mono);
+            font-size: 0.8rem;
+            margin-bottom: 20px;
+            border: 1px solid rgba(99, 102, 241, 0.2);
         }
 
         .hero h1 {
-            font-size: 3rem;
-            margin: 0;
-            font-weight: 900;
-            color: var(--text-light);
+            font-size: 3.2rem;
+            font-weight: 800;
+            margin: 0 0 15px;
+            letter-spacing: -1px;
         }
 
         .hero h1 span {
-            color: var(--luxury-brown);
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
 
         .hero p {
-            font-family: var(--font-code);
+            font-family: var(--font-mono);
             color: var(--text-muted);
-            font-size: 0.95rem;
-            margin: 20px 0 35px;
-            max-width: 700px;
+            font-size: 1rem;
+            max-width: 650px;
+            margin: 0 auto 30px;
         }
 
-        .hero-actions {
+        .hero-btns {
             display: flex;
             gap: 15px;
-            flex-wrap: wrap;
             justify-content: center;
         }
 
-        .btn-main {
-            background: linear-gradient(135deg, var(--luxury-brown), var(--luxury-brown-hover));
+        .btn-primary {
+            background: var(--primary);
             color: white;
             padding: 12px 28px;
-            border-radius: 8px;
-            text-decoration: none;
+            border-radius: 10px;
             font-weight: 700;
-            box-shadow: 0 10px 20px rgba(157,34,83,0.15);
-            display: inline-flex;
-            align-items: center;
-            gap: 10px;
-            transition: 0.3s;
-        }
-
-        .btn-main:hover {
-            transform: translateY(-2px);
-        }
-
-        .btn-secondary {
-            background: var(--card-bg);
-            color: var(--text-light);
-            border: 1px solid var(--border-color);
-            padding: 12px 24px;
-            border-radius: 8px;
             text-decoration: none;
-            font-weight: 600;
             display: inline-flex;
             align-items: center;
             gap: 8px;
-            transition: 0.3s;
+            box-shadow: 0 8px 20px rgba(99, 102, 241, 0.3);
+            transition: 0.2s;
         }
 
-        .btn-secondary:hover {
-            border-color: var(--luxury-brown);
-            color: var(--luxury-brown);
+        .btn-primary:hover {
+            background: var(--primary-hover);
+            transform: translateY(-2px);
         }
 
-        .modules-nav-wrapper {
-            position: sticky;
-            top: 75px;
-            z-index: 900;
-            background: var(--card-bg);
-            border-bottom: 1px solid var(--border-color);
+        .btn-outline {
+            background: var(--bg-card);
+            color: var(--text-main);
+            border: 1px solid var(--border);
+            padding: 12px 24px;
+            border-radius: 10px;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: 0.2s;
+        }
+
+        .btn-outline:hover {
+            border-color: var(--primary);
+            color: var(--primary);
+        }
+
+        .filter-section {
+            background: var(--bg-card);
+            border-bottom: 1px solid var(--border);
             padding: 15px 5%;
-            backdrop-filter: blur(10px);
+            position: sticky;
+            top: 80px;
+            z-index: 900;
         }
 
         .filter-container {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            gap: 15px;
-            flex-wrap: wrap;
             max-width: 1400px;
             margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
         }
 
         .filter-tabs {
@@ -386,52 +371,45 @@ $modules = [
         }
 
         .filter-tab {
-            background: var(--bg-main);
-            border: 1px solid var(--border-color);
+            background: var(--bg-body);
+            border: 1px solid var(--border);
             color: var(--text-muted);
             padding: 8px 16px;
             border-radius: 20px;
             font-size: 0.8rem;
             cursor: pointer;
+            font-family: var(--font-mono);
             white-space: nowrap;
-            font-family: var(--font-code);
-            transition: 0.3s;
+            transition: 0.2s;
         }
 
         .filter-tab:hover, .filter-tab.active {
-            background: var(--luxury-brown);
+            background: var(--primary);
             color: white;
-            border-color: var(--luxury-brown);
+            border-color: var(--primary);
         }
 
-        .stats-counter {
-            font-size: 0.82rem;
-            color: var(--text-muted);
-            font-family: var(--font-code);
-        }
-
-        .modules-section {
-            padding: 50px 5% 90px;
+        .modules-wrapper {
             max-width: 1400px;
-            margin: 0 auto;
+            margin: 50px auto;
+            padding: 0 5%;
         }
 
-        .section-title {
+        .section-header {
             text-align: center;
-            margin-bottom: 45px;
+            margin-bottom: 40px;
         }
 
-        .section-title h2 {
+        .section-header h2 {
             font-size: 2.2rem;
-            color: var(--text-light);
-            margin: 0 0 10px;
+            margin: 0 0 8px;
         }
 
-        .section-title p {
-            color: var(--luxury-brown);
-            font-family: var(--font-code);
-            margin: 0;
+        .section-header p {
+            color: var(--primary);
+            font-family: var(--font-mono);
             font-size: 0.9rem;
+            margin: 0;
         }
 
         .modules-grid {
@@ -441,175 +419,167 @@ $modules = [
         }
 
         .module-card {
-            background: var(--card-bg);
-            border: 1px solid var(--border-color);
+            background: var(--bg-card);
+            border: 1px solid var(--border);
             border-radius: 20px;
             overflow: hidden;
+            box-shadow: var(--shadow);
             display: flex;
             flex-direction: column;
-            box-shadow: var(--shadow);
-            transition: transform 0.3s ease, border-color 0.3s ease;
+            transition: transform 0.25s ease, border-color 0.25s ease;
         }
 
         .module-card:hover {
             transform: translateY(-6px);
-            border-color: var(--luxury-brown);
+            border-color: var(--primary);
         }
 
-        .module-header {
-            padding: 25px 25px 15px;
-            border-bottom: 1px solid var(--border-color);
+        .card-top {
+            padding: 24px;
+            border-bottom: 1px solid var(--border);
         }
 
-        .module-code {
-            font-family: var(--font-code);
+        .mod-code {
+            font-family: var(--font-mono);
             font-size: 0.75rem;
-            color: var(--accent-green);
-            background: rgba(13, 148, 136, 0.1);
+            background: rgba(99, 102, 241, 0.1);
+            color: var(--primary);
             padding: 4px 10px;
-            border-radius: 12px;
+            border-radius: 8px;
             display: inline-block;
             margin-bottom: 10px;
-            border: 1px solid rgba(13, 148, 136, 0.2);
+            border: 1px solid rgba(99, 102, 241, 0.2);
         }
 
-        .module-title {
+        .mod-title {
             font-size: 1.25rem;
-            margin: 0 0 10px;
-            color: var(--text-light);
             font-weight: 700;
+            margin: 0 0 10px;
         }
 
-        .module-desc {
+        .mod-desc {
             font-size: 0.85rem;
             color: var(--text-muted);
             line-height: 1.6;
             margin: 0;
         }
 
-        .module-tech-stack {
+        .tech-tags {
             display: flex;
             flex-wrap: wrap;
             gap: 6px;
             margin-top: 15px;
         }
 
-        .tech-tag {
+        .tech-pill {
             font-size: 0.7rem;
-            background: rgba(157,34,83,0.06);
-            color: var(--luxury-brown);
-            padding: 3px 9px;
+            background: var(--bg-body);
+            color: var(--text-main);
+            padding: 3px 10px;
             border-radius: 6px;
-            font-family: var(--font-code);
-            border: 1px solid rgba(157,34,83,0.12);
+            font-family: var(--font-mono);
+            border: 1px solid var(--border);
         }
 
-        /* Upload Area */
-        .exercise-upload-area {
-            padding: 20px 25px;
+        .upload-section {
+            padding: 20px 24px;
             flex-grow: 1;
             display: flex;
             flex-direction: column;
         }
 
-        .area-title {
-            font-size: 0.82rem;
-            font-family: var(--font-code);
-            color: var(--luxury-brown);
-            margin-bottom: 12px;
+        .upload-title {
+            font-size: 0.8rem;
+            font-family: var(--font-mono);
+            color: var(--primary);
+            margin-bottom: 10px;
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
 
-        .drop-zone {
-            border: 2px dashed var(--border-color);
+        .dropzone {
+            border: 2px dashed var(--border);
             border-radius: 12px;
-            padding: 16px;
+            padding: 18px;
             text-align: center;
-            background: var(--bg-main);
+            background: var(--bg-body);
             cursor: pointer;
-            transition: 0.3s;
-            margin-bottom: 15px;
+            transition: 0.2s;
+            margin-bottom: 12px;
         }
 
-        .drop-zone:hover {
-            border-color: var(--luxury-brown);
-            background: rgba(157,34,83,0.04);
+        .dropzone:hover {
+            border-color: var(--primary);
+            background: rgba(99, 102, 241, 0.04);
         }
 
-        .drop-zone i {
+        .dropzone i {
             font-size: 1.4rem;
-            color: var(--luxury-brown);
+            color: var(--primary);
             margin-bottom: 4px;
         }
 
-        .drop-zone p {
+        .dropzone p {
             margin: 0;
             font-size: 0.78rem;
             color: var(--text-muted);
-            font-family: var(--font-code);
+            font-family: var(--font-mono);
         }
 
-        .drop-zone span {
-            color: var(--luxury-brown);
+        .dropzone span {
+            color: var(--primary);
             font-weight: 600;
         }
 
-        .file-input-hidden {
+        .hidden-file {
             display: none;
         }
 
         .gallery-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
-            gap: 10px;
-            margin-top: 5px;
+            grid-template-columns: repeat(auto-fill, minmax(65px, 1fr));
+            gap: 8px;
         }
 
-        .gallery-item {
+        .gallery-box {
             position: relative;
             aspect-ratio: 1;
             border-radius: 8px;
             overflow: hidden;
-            border: 1px solid var(--border-color);
+            border: 1px solid var(--border);
             cursor: pointer;
-            background: #000;
         }
 
-        .gallery-item img {
+        .gallery-box img {
             width: 100%;
             height: 100%;
             object-fit: cover;
-            transition: transform 0.3s ease;
+            transition: 0.2s;
         }
 
-        .gallery-item:hover img {
-            transform: scale(1.08);
-            opacity: 0.85;
+        .gallery-box:hover img {
+            transform: scale(1.1);
         }
 
-        .gallery-item-actions {
+        .gallery-overlay {
             position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(15, 23, 42, 0.7);
+            inset: 0;
+            background: rgba(15, 23, 42, 0.75);
             display: flex;
             align-items: center;
             justify-content: center;
             gap: 6px;
             opacity: 0;
-            transition: 0.2s opacity;
+            transition: 0.2s;
         }
 
-        .gallery-item:hover .gallery-item-actions {
+        .gallery-box:hover .gallery-overlay {
             opacity: 1;
         }
 
-        .action-btn {
-            background: rgba(255,255,255,0.2);
+        .action-icon {
+            background: rgba(255, 255, 255, 0.2);
             color: white;
             border: none;
             width: 24px;
@@ -620,72 +590,64 @@ $modules = [
             justify-content: center;
             cursor: pointer;
             font-size: 0.65rem;
-            transition: 0.2s;
         }
 
-        .action-btn:hover {
-            background: var(--luxury-brown);
+        .action-icon:hover {
+            background: var(--primary);
         }
 
-        .action-btn.delete-btn:hover {
+        .action-icon.del:hover {
             background: #ef4444;
         }
 
-        .module-footer {
-            padding: 15px 25px;
-            border-top: 1px solid var(--border-color);
+        .card-footer {
+            padding: 15px 24px;
+            border-top: 1px solid var(--border);
+            background: var(--bg-body);
             display: flex;
             justify-content: space-between;
             align-items: center;
-            background: var(--bg-main);
         }
 
-        .btn-atelier {
-            color: var(--luxury-brown);
-            background: var(--card-bg);
-            border: 1px solid var(--border-color);
+        .btn-detail {
+            color: var(--primary);
+            background: var(--bg-card);
+            border: 1px solid var(--border);
             padding: 6px 14px;
             border-radius: 6px;
-            font-family: var(--font-code);
-            font-size: 0.78rem;
+            font-family: var(--font-mono);
+            font-size: 0.75rem;
             cursor: pointer;
             text-decoration: none;
             display: inline-flex;
             align-items: center;
             gap: 6px;
-            transition: 0.3s;
+            transition: 0.2s;
         }
 
-        .btn-atelier:hover {
-            background: var(--luxury-brown);
+        .btn-detail:hover {
+            background: var(--primary);
             color: white;
-            border-color: var(--luxury-brown);
+            border-color: var(--primary);
         }
 
-        /* Lightbox Modal */
-        .lightbox-modal {
+        .lightbox {
             display: none;
             position: fixed;
+            inset: 0;
             z-index: 3000;
-            top: 0;
-            left: 0;
-            width: 100vw;
-            height: 100vh;
-            background: rgba(15, 23, 42, 0.9);
+            background: rgba(11, 15, 25, 0.9);
             backdrop-filter: blur(8px);
-            flex-direction: column;
             justify-content: center;
             align-items: center;
             padding: 20px;
         }
 
-        .lightbox-img {
+        .lightbox img {
             max-width: 90%;
             max-height: 85vh;
             border-radius: 12px;
-            border: 2px solid var(--luxury-brown);
-            object-fit: contain;
-            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
+            border: 2px solid var(--primary);
         }
 
         .lightbox-close {
@@ -695,26 +657,20 @@ $modules = [
             color: white;
             font-size: 2.5rem;
             cursor: pointer;
-            transition: 0.2s;
-        }
-
-        .lightbox-close:hover {
-            color: var(--luxury-brown);
         }
 
         footer {
             text-align: center;
             padding: 40px 20px;
-            border-top: 1px solid var(--border-color);
-            background: var(--card-bg);
-            font-family: var(--font-code);
+            border-top: 1px solid var(--border);
+            background: var(--bg-card);
+            font-family: var(--font-mono);
             font-size: 0.78rem;
             color: var(--text-muted);
         }
 
         footer span {
-            color: var(--luxury-brown);
-            font-weight: 600;
+            color: var(--primary);
         }
     </style>
 </head>
@@ -722,111 +678,107 @@ $modules = [
 
 <header>
     <a href="index.php" class="logo">
-        <i class="fa-solid fa-code"></i>
+        <i class="fa-solid fa-code-branch"></i>
         <?php echo htmlspecialchars($studentName); ?>.DEV
-        <span class="badge">OFPPT DD 2ND YEAR</span>
+        <span class="badge">OFPPT 2026</span>
     </a>
     <nav>
         <a href="#modules"><i class="fa-solid fa-cubes"></i> Modules</a>
         <div class="dropdown">
             <button class="dropdown-btn" onclick="toggleDropdown(event)">
-                <i class="fa-solid fa-folder-open"></i> Repositories ▼
+                <i class="fa-solid fa-folder-tree"></i> Repositories ▼
             </button>
-            <div id="myDropdown" class="dropdown-content">
+            <div id="repoDropdown" class="dropdown-menu">
                 <?php foreach ($modules as $mod): ?>
                     <a href="https://github.com/Hakimakimy/Portfolio__DEV204HB" target="_blank">
-                        <span>&gt; <?php echo $mod['code']; ?> <?php echo htmlspecialchars($mod['title']); ?></span>
+                        <span><?php echo $mod['code']; ?> - <?php echo htmlspecialchars($mod['title']); ?></span>
                         <i class="fa-brands fa-github"></i>
                     </a>
                 <?php endforeach; ?>
             </div>
         </div>
-        <button class="theme-toggle-btn" onclick="toggleTheme()">
+        <button class="theme-btn" onclick="toggleTheme()">
             <i class="fa-solid fa-circle-half-stroke"></i>
-            <span id="themeText">BURGUNDY MODE</span>
+            <span id="themeText">DARK MODE</span>
         </button>
     </nav>
 </header>
 
 <section class="hero">
-    <div class="hero-badge">
+    <div class="hero-tag">
         <i class="fa-solid fa-graduation-cap"></i> OFPPT ISTA <?php echo $academicYear; ?> | <?php echo htmlspecialchars($specialization); ?>
     </div>
-    <h1>Digital <span>Elegance & Code</span></h1>
-    <p>&gt; Portfolio de la 2ème année Développement Digital - Suivi des modules, projets et captures d'exercices.</p>
-    <div class="hero-actions">
-        <a href="#modules" class="btn-main"><i class="fa-solid fa-play"></i> Explorer les Modules</a>
-        <a href="https://github.com/Hakimakimy/Portfolio__DEV204HB" target="_blank" class="btn-secondary"><i class="fa-brands fa-github"></i> Profil GitHub</a>
+    <h1>Digital Portfolio & <span>Excellence</span></h1>
+    <p>&gt; Plateforme professionnelle pour le suivi des projets, TP et captures d'exercices de développement.</p>
+    <div class="hero-btns">
+        <a href="#modules" class="btn-primary"><i class="fa-solid fa-rocket"></i> Voir les Modules</a>
+        <a href="https://github.com/Hakimakimy/Portfolio__DEV204HB" target="_blank" class="btn-outline"><i class="fa-brands fa-github"></i> GitHub</a>
     </div>
 </section>
 
-<div class="modules-nav-wrapper">
+<div class="filter-section">
     <div class="filter-container">
         <div class="filter-tabs">
-            <button class="filter-tab active" onclick="filterModules('all', event)">Tous les Modules (<?php echo count($modules); ?>)</button>
-            <button class="filter-tab" onclick="filterModules('frontend', event)">Front-End</button>
-            <button class="filter-tab" onclick="filterModules('backend', event)">Backend & DB</button>
-            <button class="filter-tab" onclick="filterModules('mobile', event)">Mobile & Cloud</button>
-            <button class="filter-tab" onclick="filterModules('management', event)">Management & Sécurité</button>
+            <button class="filter-tab active" onclick="filterMods('all', event)">Tous (<?php echo count($modules); ?>)</button>
+            <button class="filter-tab" onclick="filterMods('frontend', event)">Front-End</button>
+            <button class="filter-tab" onclick="filterMods('backend', event)">Backend & DB</button>
+            <button class="filter-tab" onclick="filterMods('mobile', event)">Mobile & Cloud</button>
+            <button class="filter-tab" onclick="filterMods('management', event)">Management & Sécurité</button>
         </div>
-        <div class="stats-counter" id="statsCounter">
-            <i class="fa-solid fa-images"></i> Total Fichiers / Exercices : <span id="totalExercisesCount" style="color:var(--luxury-brown); font-weight:bold;">0</span>
+        <div style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--text-muted);">
+            <i class="fa-solid fa-images" style="color:var(--primary);"></i> Fichiers enregistrés : <span id="totalCount" style="font-weight:bold; color:var(--primary);">0</span>
         </div>
     </div>
 </div>
 
-<section class="modules-section" id="modules">
-    <div class="section-title">
-        <h2>Modules de la 2ème Année OFPPT</h2>
-        <p>// Importez et gérez vos captures d'exercices et TP directement depuis votre appareil</p>
+<div class="modules-wrapper" id="modules">
+    <div class="section-header">
+        <h2>Modules Pédagogiques</h2>
+        <p>// Importez vos captures d'écran et documentez vos apprentissages</p>
     </div>
 
-    <div class="modules-grid" id="modulesContainer">
+    <div class="modules-grid">
         <?php foreach ($modules as $mod): ?>
-            <div class="module-card" data-category="<?php echo $mod['category']; ?>">
-                <div class="module-header">
-                    <span class="module-code"><i class="fa-solid fa-bookmark"></i> <?php echo $mod['code']; ?></span>
-                    <h3 class="module-title"><?php echo htmlspecialchars($mod['title']); ?></h3>
-                    <p class="module-desc"><?php echo htmlspecialchars($mod['desc']); ?></p>
-                    <div class="module-tech-stack">
+            <div class="module-card" data-cat="<?php echo $mod['category']; ?>">
+                <div class="card-top">
+                    <span class="mod-code"><i class="fa-solid fa-bookmark"></i> <?php echo $mod['code']; ?></span>
+                    <h3 class="mod-title"><?php echo htmlspecialchars($mod['title']); ?></h3>
+                    <p class="mod-desc"><?php echo htmlspecialchars($mod['desc']); ?></p>
+                    <div class="tech-tags">
                         <?php foreach ($mod['techs'] as $tech): ?>
-                            <span class="tech-tag"><?php echo htmlspecialchars($tech); ?></span>
+                            <span class="tech-pill"><?php echo htmlspecialchars($tech); ?></span>
                         <?php endforeach; ?>
                     </div>
                 </div>
 
-                <!-- منطقة رفع الصور والدروس من الحاسوب -->
-                <div class="exercise-upload-area" data-module-id="<?php echo $mod['id']; ?>">
-                    <div class="area-title">
-                        <span><i class="fa-solid fa-camera"></i> Captures & Cours Illustrés</span>
-                        <span class="mod-count" style="font-size:0.75rem;">0 fichier(s)</span>
+                <div class="upload-section" data-mod-id="<?php echo $mod['id']; ?>">
+                    <div class="upload-title">
+                        <span><i class="fa-solid fa-camera"></i> Captures d'exercices</span>
+                        <span class="mod-file-count" style="font-size: 0.75rem;">0 fichier</span>
                     </div>
-                    <div class="drop-zone" onclick="triggerFileInput('file-<?php echo $mod['id']; ?>')">
+                    <div class="dropzone" onclick="triggerFile('file-<?php echo $mod['id']; ?>')">
                         <i class="fa-solid fa-cloud-arrow-up"></i>
-                        <p>Glissez vos images ou <span>Parcourir</span></p>
+                        <p>Glissez l'image ici ou <span>Parcourir</span></p>
                     </div>
-                    <input type="file" id="file-<?php echo $mod['id']; ?>" class="file-input-hidden" accept="image/*" multiple onchange="handleFiles('<?php echo $mod['id']; ?>', this.files)">
+                    <input type="file" id="file-<?php echo $mod['id']; ?>" class="hidden-file" accept="image/*" multiple onchange="handleImages('<?php echo $mod['id']; ?>', this.files)">
                     
-                    <div class="gallery-grid" id="gallery-<?php echo $mod['id']; ?>">
-                        <!-- يتم تعبئة الصور تلقائياً عبر جافاسكريبت -->
-                    </div>
+                    <div class="gallery-grid" id="gallery-<?php echo $mod['id']; ?>"></div>
                 </div>
 
-                <div class="module-footer">
-                    <a href="#modules" class="btn-atelier" onclick="alert('Module code: <?php echo $mod['code']; ?> | Statut : Actif')">
-                        <i class="fa-solid fa-folder-open"></i> Détails
+                <div class="card-footer">
+                    <a href="#modules" class="btn-detail" onclick="alert('Module : <?php echo $mod['code']; ?> - Prêt')">
+                        <i class="fa-solid fa-circle-check"></i> Actif
                     </a>
-                    <span style="font-size:0.75rem; font-family:var(--font-code); color:var(--text-muted);">OFPPT 2026</span>
+                    <span style="font-size:0.75rem; font-family:var(--font-mono); color:var(--text-muted);">OFPPT 2026</span>
                 </div>
             </div>
         <?php endforeach; ?>
     </div>
-</section>
+</div>
 
-<!-- Lightbox Modal -->
-<div class="lightbox-modal" id="lightboxModal" onclick="closeLightbox()">
+<div class="lightbox" id="lightboxModal" onclick="closeLightbox()">
     <span class="lightbox-close">&times;</span>
-    <img class="lightbox-img" id="lightboxImg" alt="Aperçu du cours">
+    <img id="lightboxImg" alt="Aperçu">
 </div>
 
 <footer>
@@ -840,54 +792,46 @@ $modules = [
         <?php endforeach; ?>
     };
 
-    let exercisesData = JSON.parse(localStorage.getItem('portfolio_exercises_v3')) || defaultData;
+    let portfolioData = JSON.parse(localStorage.getItem('portfolio_data_v4')) || defaultData;
 
     document.addEventListener("DOMContentLoaded", () => {
-        renderAllGalleries();
+        renderGalleries();
     });
 
-    function toggleDropdown(event) {
-        event.stopPropagation();
-        document.getElementById("myDropdown").classList.toggle("show");
+    function toggleDropdown(e) {
+        e.stopPropagation();
+        document.getElementById("repoDropdown").classList.toggle("show");
     }
 
-    window.onclick = function(event) {
-        if (!event.target.matches('.dropdown-btn') && !event.target.closest('.dropdown-btn')) {
-            var dropdowns = document.getElementsByClassName("dropdown-content");
-            for (let i = 0; i < dropdowns.length; i++) {
-                var openDropdown = dropdowns[i];
-                if (openDropdown.classList.contains('show')) {
-                    openDropdown.classList.remove('show');
-                }
-            }
+    window.onclick = function(e) {
+        if (!e.target.closest('.dropdown')) {
+            document.getElementById("repoDropdown").classList.remove("show");
         }
     }
 
     function toggleTheme() {
-        document.body.classList.toggle('purple-mode');
-        const text = document.getElementById('themeText');
-        if(document.body.classList.contains('purple-mode')) {
-            text.textContent = "LIGHT MODE";
-            localStorage.setItem('portfolio_theme', 'purple');
+        document.body.classList.toggle('dark-mode');
+        const txt = document.getElementById('themeText');
+        if(document.body.classList.contains('dark-mode')) {
+            txt.textContent = "LIGHT MODE";
+            localStorage.setItem('portfolio_theme', 'dark');
         } else {
-            text.textContent = "BURGUNDY MODE";
+            txt.textContent = "DARK MODE";
             localStorage.setItem('portfolio_theme', 'light');
         }
     }
 
-    if(localStorage.getItem('portfolio_theme') === 'purple') {
-        document.body.classList.add('purple-mode');
+    if(localStorage.getItem('portfolio_theme') === 'dark') {
+        document.body.classList.add('dark-mode');
         document.getElementById('themeText').textContent = "LIGHT MODE";
     }
 
-    function filterModules(category, event) {
-        const tabs = document.querySelectorAll('.filter-tab');
-        tabs.forEach(tab => tab.classList.remove('active'));
-        event.target.classList.add('active');
+    function filterMods(cat, e) {
+        document.querySelectorAll('.filter-tab').forEach(t => t.classList.remove('active'));
+        e.target.classList.add('active');
 
-        const cards = document.querySelectorAll('.module-card');
-        cards.forEach(card => {
-            if(category === 'all' || card.getAttribute('data-category') === category) {
+        document.querySelectorAll('.module-card').forEach(card => {
+            if(cat === 'all' || card.getAttribute('data-cat') === cat) {
                 card.style.display = "flex";
             } else {
                 card.style.display = "none";
@@ -895,20 +839,18 @@ $modules = [
         });
     }
 
-    function triggerFileInput(id) {
+    function triggerFile(id) {
         document.getElementById(id).click();
     }
 
-    function handleFiles(moduleId, files) {
-        if (!exercisesData[moduleId]) {
-            exercisesData[moduleId] = [];
-        }
+    function handleImages(modId, files) {
+        if(!portfolioData[modId]) portfolioData[modId] = [];
 
         Array.from(files).forEach(file => {
-            if (file.type.startsWith('image/')) {
+            if(file.type.startsWith('image/')) {
                 const reader = new FileReader();
                 reader.onload = function(e) {
-                    exercisesData[moduleId].push(e.target.result);
+                    portfolioData[modId].push(e.target.result);
                     saveAndRender();
                 }
                 reader.readAsDataURL(file);
@@ -916,58 +858,56 @@ $modules = [
         });
     }
 
-    function deleteExercise(moduleId, index, event) {
-        event.stopPropagation();
-        if(exercisesData[moduleId]) {
-            exercisesData[moduleId].splice(index, 1);
+    function deleteImg(modId, index, e) {
+        e.stopPropagation();
+        if(portfolioData[modId]) {
+            portfolioData[modId].splice(index, 1);
             saveAndRender();
         }
     }
 
     function saveAndRender() {
-        localStorage.setItem('portfolio_exercises_v3', JSON.stringify(exercisesData));
-        renderAllGalleries();
+        localStorage.setItem('portfolio_data_v4', JSON.stringify(portfolioData));
+        renderGalleries();
     }
 
-    function renderAllGalleries() {
-        let totalCount = 0;
-        for (const moduleId in exercisesData) {
-            const images = exercisesData[moduleId];
-            const galleryEl = document.getElementById(`gallery-${moduleId}`);
-            const areaEl = galleryEl ? galleryEl.closest('.exercise-upload-area') : null;
-            const countEl = areaEl ? areaEl.querySelector('.mod-count') : null;
+    function renderGalleries() {
+        let globalTotal = 0;
+        for (const modId in portfolioData) {
+            const imgs = portfolioData[modId];
+            const gallery = document.getElementById(`gallery-${modId}`);
+            const section = gallery ? gallery.closest('.upload-section') : null;
+            const counter = section ? section.querySelector('.mod-file-count') : null;
 
-            if (galleryEl) {
-                if (images && images.length > 0) {
-                    totalCount += images.length;
-                    if(countEl) countEl.textContent = `${images.length} fichier(s)`;
+            if(gallery) {
+                if(imgs && imgs.length > 0) {
+                    globalTotal += imgs.length;
+                    if(counter) counter.textContent = `${imgs.length} fichier(s)`;
                     let html = '';
-                    images.forEach((imgSrc, index) => {
+                    imgs.forEach((src, idx) => {
                         html += `
-                            <div class="gallery-item" onclick="openLightbox('${imgSrc}')">
-                                <img src="${imgSrc}" alt="Leçon illustrée">
-                                <div class="gallery-item-actions">
-                                    <button class="action-btn" title="Voir"><i class="fa-solid fa-eye"></i></button>
-                                    <button class="action-btn delete-btn" title="Supprimer" onclick="deleteExercise('${moduleId}', ${index}, event)"><i class="fa-solid fa-trash"></i></button>
+                            <div class="gallery-box" onclick="openLightbox('${src}')">
+                                <img src="${src}" alt="Exercise">
+                                <div class="gallery-overlay">
+                                    <button class="action-icon" title="Voir"><i class="fa-solid fa-eye"></i></button>
+                                    <button class="action-icon del" title="Supprimer" onclick="deleteImg('${modId}', ${idx}, event)"><i class="fa-solid fa-trash"></i></button>
                                 </div>
                             </div>
                         `;
                     });
-                    galleryEl.innerHTML = html;
+                    gallery.innerHTML = html;
                 } else {
-                    if(countEl) countEl.textContent = `0 fichier(s)`;
-                    galleryEl.innerHTML = '';
+                    if(counter) counter.textContent = `0 fichier`;
+                    gallery.innerHTML = '';
                 }
             }
         }
-        document.getElementById('totalExercisesCount').textContent = totalCount;
+        document.getElementById('totalCount').textContent = globalTotal;
     }
 
-    function openLightbox(imgSrc) {
-        const modal = document.getElementById('lightboxModal');
-        const img = document.getElementById('lightboxImg');
-        img.src = imgSrc;
-        modal.style.display = "flex";
+    function openLightbox(src) {
+        document.getElementById('lightboxImg').src = src;
+        document.getElementById('lightboxModal').style.display = "flex";
     }
 
     function closeLightbox() {
